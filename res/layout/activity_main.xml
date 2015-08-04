@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.text_to_speech.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnAutumn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/btnSummer"
+            android:layout_alignRight="@+id/btnSummer"
+            android:layout_below="@+id/btnSummer"
+            android:layout_marginTop="17dp"
+            android:text="Musim Gugur" />
+
+        <Button
+            android:id="@+id/btnSummer"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/btnSpring"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnSpring"
+            android:layout_marginTop="19dp"
+            android:text="Musim Panas" />
+
+        <Button
+            android:id="@+id/btnSpring"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="58dp"
+            android:text="Musim Semi" />
+
+        <Button
+            android:id="@+id/btnWinter"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnAutumn"
+            android:layout_marginTop="18dp"
+            android:text="Musim Dingin" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Nihon ni wa shiki " />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
